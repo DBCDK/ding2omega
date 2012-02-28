@@ -4,7 +4,7 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
-
+dependencies[0] = 'page_manager'
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
@@ -25,7 +25,6 @@ regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
 regions[footer_first] = 'Footer First'
 regions[footer_second] = 'Footer Second'
-
 zones[header] = 'Header'
 zones[content] = 'Content'
 zones[footer] = 'Footer'
@@ -34,23 +33,17 @@ zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
-
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'
-
-stylesheets[print][] = css/print.css
-
-stylesheets-conditional[gte IE 9][all][] = css/ie/ie_fix.css
-stylesheets-conditional[lt IE 9][all][] = css/ie/ie8_fix.css
-stylesheets-conditional[lt IE 8][all][] = css/ie/ie7_fix.css
-stylesheets-conditional[!IE 7][all][] = css/ie/notie7.css
-
-scripts[] = js/jquery.placeholder.js
-scripts[] = js/mkdru.js
-
+stylesheets[print][0] = 'css/print.css'
+stylesheets-conditional[gte IE 9][all][0] = 'css/ie/ie_fix.css'
+stylesheets-conditional[lt IE 9][all][0] = 'css/ie/ie8_fix.css'
+stylesheets-conditional[lt IE 8][all][0] = 'css/ie/ie7_fix.css'
+stylesheets-conditional[!IE 7][all][0] = 'css/ie/notie7.css'
+scripts[0] = 'js/jquery.placeholder.js'
+scripts[1] = 'js/mkdru.js'
 version = '1.x'
-
 settings[toggle_logo] = '1'
 settings[toggle_name] = '1'
 settings[toggle_slogan] = '1'
@@ -107,6 +100,7 @@ settings[alpha_exclude][modules/field/theme/field.css] = '0'
 settings[alpha_exclude][modules/node/node.css] = '0'
 settings[alpha_exclude][modules/search/search.css] = '0'
 settings[alpha_exclude][modules/user/user.css] = '0'
+settings[alpha_exclude][sites/all/themes/ding2_basetheme/css/print.css] = '0'
 settings[alpha_exclude][misc/vertical-tabs.css] = '0'
 settings[alpha_exclude][modules/aggregator/aggregator.css] = '0'
 settings[alpha_exclude][modules/block/block.css] = '0'
