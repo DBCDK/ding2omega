@@ -1,0 +1,14 @@
+/* ***** http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser ***** */
+.rounded-corners {
+  border-radius: 8px; /* CSS3 */
+}
+
+.ui-dialog .ui-widget-content {
+    padding: 0.5em 1em;
+}
+
+.ui-dialog .ui-resizable-se {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+}

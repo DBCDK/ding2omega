@@ -1,0 +1,301 @@
+/* ***** http://www.ruzee.com/blog/shadedborder ***** */
+
+.ie-rounded-corners {
+    display : block;
+    float: left;
+}
+
+.ting-object form .ie-rounded-corners {
+    float: right;
+}
+
+#block-user-login .ie-rounded-corners,
+#block-search-form .ie-rounded-corners,
+#block-user-login .ie-rounded-corners .sb-inner,
+#block-search-form .ie-rounded-corners .sb-inner {
+    background-color: #ffffff;
+}
+
+#user-profile-form #edit-actions,
+#block-user-login .ie-rounded-corners,
+#block-search-form .ie-rounded-corners,
+.ie-rounded-corners {
+    padding:0 10px;
+    margin:auto;
+    color:#ffffff;
+}
+
+#block-user-login .ie-rounded-corners,
+#user-profile-form #edit-actions {
+    margin-right: 0.5em;
+}
+
+#block-user-login .ie-rounded-corners {
+    margin-left: 0.5em;
+}
+
+li.comment-add a,
+.comment ul li,
+.field-type-ting-relation > .field-items,
+.field-type-ding-entity-buttons > .field-items,
+.field-type-ting-infomedia > .field-items,
+.field-type-ting-sfx > .field-items {
+    display: block;
+    float: right;
+}
+
+li.comment-add,
+.comment ul li,
+.field-type-ting-relation,
+.field-type-ding-entity-buttons,
+.field-type-ting-infomedia,
+.field-type-ting-sfx {
+    clear: both;
+}
+
+.field-type-ting-relation .field-item a,
+.field-type-ting-sfx .field-item a {
+  margin-right: 0;
+  padding-right: 0.5em;
+}
+
+.field-type-ting-relation .field-items.rounded-corners,
+.field-type-ting-sfx .field-items.rounded-corners {
+  border-color: #ffffff;
+  background-color: inherit;
+}
+
+#block-search-form input[type='submit'] {
+    padding:0 0 0 10px;
+    margin-right: 0em;
+}
+
+#button-user-logout, #button-user-logout .sb-inner {
+    padding:0 10px;
+    margin:auto;
+    background-color:#fff;
+}
+
+#button-user-logout a {
+    display: block;
+}
+
+#block-search-form .ie-rounded-corners {
+    margin-right: 0.5em;
+}
+
+#user-profile-form {
+    padding-bottom: 1.5em;
+}
+
+#block-user-login div.content {
+    padding: 0.75em 0 0 0;
+}
+
+#block-user-login .lead-text {
+    padding: 0 0 0.7em;
+}
+
+#block-user-login .form-item input#edit-pass {
+    width: 6em;
+}
+.container-inline .ie-rounded-corners div {
+    display: block;
+}
+
+li.comment-add.rounded-corners,
+.comment ul li.rounded-corners,
+.field-type-ding-entity-buttons .field-items.rounded-corners,
+.field-type-ting-relation       .field-items.rounded-corners,
+.field-type-ting-sfx            .field-items.rounded-corners,
+.field-type-ting-infomedia      .field-items.rounded-corners {
+  display: block;
+  padding: 0;
+  margin: 0 0 0 1em;
+}
+
+li.comment-add.rounded-corners a,
+.comment ul li.rounded-corners a,
+.field-type-ding-entity-buttons .field-items.rounded-corners a,
+.field-type-ting-relation       .field-items.rounded-corners a,
+.field-type-ting-sfx            .field-items.rounded-corners a,
+.field-type-ting-infomedia      .field-items.rounded-corners a {
+  display: block;
+  z-index: 2;
+  padding: 0;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+}
+
+.field-type-ding-entity-buttons .ie-rounded-corners {
+  margin-left: 1em;
+}
+
+#block-user-login .form-item, #block-user-login .form-actions {
+  padding-top: 0;
+}
+
+
+/* ***** end shadedborder ***** */
+
+input#edit-search-block-form--2.spinner { background-position: 216px 5px; }
+
+form#search-block-form div.form-item { margin-top: 0.5em; }
+form#search-block-form div#edit-actions { margin-top: 0.5em; }
+
+
+#block-user-login {
+    width: 46%;
+}
+
+#block-search-form div.form-actions { clear: none; }
+
+#block-user-login .form-item input {
+  width: 4.2em;
+}
+
+#block-user-login .form-item input#edit-name {
+  width: 5em;
+}
+
+#block-user-login .form-item label {
+  padding-left: 0;
+  margin-left: -0.3em;
+}
+
+input.form-text {
+  width: 17em;
+}
+
+#block-user-login input.form-submit,
+#block-search-form input.form-submit  {
+  padding: 0;
+}
+
+#search-controls-form .form-item-size label {
+    margin-right: 0em;
+}
+
+#block-search-form #extend-form-div #extend-form-clear {
+  margin-right:3.5em;
+}
+
+#block-user-login  #edit-actions--2 { clear: none; }
+
+#block-search-form,
+#block-system-user-menu,
+#block-ding-user-frontend-ding-username {
+  font-size: 0.95em;
+}
+
+#block-system-user-menu ul li.first {
+  line-height: 1.4em;
+}
+
+#block-search-form .content {
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-right: 1em;
+  padding-right: 0em;
+}
+
+#block-search-form .content form {
+  margin-top: 0.75em;
+}
+
+#block-search-form .content .form-item {
+  margin-top: 0em;
+}
+
+#block-search-form .content div#edit-actions {
+  margin-top: 0em;
+}
+
+#block-search-form .content div#edit-actions input {
+  max-width: 4em;
+}
+
+#ding-user-name {
+  width: 12em;
+  max-width: 12em;
+}
+
+/* ***** reservations ***** */
+
+.delete-reservations {
+    margin-right: 0.5em;
+}
+
+.delete-reservation,
+.renew-loan-button,
+.pay-button {
+    height: 1.7em;
+    line-height: 0.9em;
+}
+
+input#edit-update {
+  border: black;
+  padding : 0;
+  margin: 0;
+}
+
+
+/* ***** popup ***** */
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.5em 1em 0.3em 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.ui-dialog .ui-widget-header .ui-icon {
+    overflow: hidden;
+    text-indent: -99999px;
+}
+
+.ui-dialog .ui-dialog-content, .ui-dialog .form-actions {
+    padding: 0.5em 1em;
+    clear: both;
+}
+
+.ui-dialog .ui-dialog-content form > div {
+    padding-bottom: 2em;
+}
+
+
+.pane-ding-facetbrowser .content div label { color: #000; }
+
+
+/* ***** search result page ***** */
+
+.form-item-sort label, .form-item-size label {
+  color: #2e2e2e;
+}
+
+.form-item-size, .form-item-sort {
+  padding: 0;
+}
+
+.page-search-meta .pane-ding-facetbrowser fieldset input[type="checkbox"] { margin-right: 0; }
+.page-search-meta .pane-ding-facetbrowser fieldset div.form-checkboxes label.option { text-indent: -2em; }
+
+.ting-object form input {
+  padding: 0;
+}
+
+.field-type-ding-entity-buttons p.ding-entity-button a,
+.page-user-bookmarks p.ding-entity-button a {
+  z-index: 100;
+}
+
+
+/* ***** bookmarks  ***** */
+
+div.ting-object .field-type-ding-entity-buttons .form-actions {
+    padding-bottom: 0em;
+    padding-top: 0em;
+    margin-left: 1em;
+}

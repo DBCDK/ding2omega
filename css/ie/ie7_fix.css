@@ -1,0 +1,78 @@
+#header .links li {
+    display: inline;
+}
+
+.pane-ding-node-search .view-content {
+clear:both;
+}
+
+#header .links li a {
+    display: inline;
+    margin-right: 0.2em;
+}
+
+#block-search-form .form-item input {
+    width: 19em;
+}
+
+#block-user-login .ie-rounded-corners {
+    padding:0 6px;
+    margin: 0 6px;
+}
+
+#block-user-login input[type='submit'] {
+    width: 4em;
+}
+.pane-ding-facetbrowser .content div label { color: #000; }
+
+.page-user ul.primary li.active a {
+    color: #000;
+}
+
+#edit-advanced legend a {
+    padding-left: 12em;
+}
+
+#block-search-form #edit-advanced .form-item input {
+    width: 14.5em;
+}
+
+#block-system-user-menu ul li.first {
+  line-height: 1.6em;
+}
+
+/*.i18n-en #block-search-form .clearfix {
+  height: 0.5em;
+}*/
+
+.i18n-en #block-search-form .content {
+  margin-right: 0.5em;
+}
+
+#main #breadcrumb h2 {
+  padding-top: 0.3em;
+}
+
+.ting-object form input {
+  padding: 0em 1em;
+  font-weight: bold;
+  font-size: 0.9em;
+  float:left;
+  text-align: center;
+}
+
+.page-search ul.primary,
+.page-user ul.secondary,
+.ting-search-carousel ul.search-controller {
+  display: inline-block;
+}
+
+.field-type-ding-entity-buttons p.ding-entity-button,
+.field-type-ding-entity-buttons form {
+float:right;
+margin-top:0.2em;
+}
+
+.ting-search-carousel .rs-carousel .rs-carousel-mask {
+    overflow: hidden;
+}
