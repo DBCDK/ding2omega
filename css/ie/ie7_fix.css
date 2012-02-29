@@ -15,11 +15,6 @@ clear:both;
     width: 19em;
 }
 
-#block-user-login .ie-rounded-corners {
-    padding:0 6px;
-    margin: 0 6px;
-}
-
 #block-user-login input[type='submit'] {
     width: 4em;
 }
@@ -40,10 +35,6 @@ clear:both;
 #block-system-user-menu ul li.first {
   line-height: 1.6em;
 }
-
-/*.i18n-en #block-search-form .clearfix {
-  height: 0.5em;
-}*/
 
 .i18n-en #block-search-form .content {
   margin-right: 0.5em;

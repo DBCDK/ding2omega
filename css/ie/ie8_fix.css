@@ -1,152 +1,9 @@
-/* ***** http://www.ruzee.com/blog/shadedborder ***** */
-
-.ie-rounded-corners {
-    display : block;
-    float: left;
-}
-
-.ting-object form .ie-rounded-corners {
-    float: right;
-}
-
-#block-user-login .ie-rounded-corners,
-#block-search-form .ie-rounded-corners,
-#block-user-login .ie-rounded-corners .sb-inner,
-#block-search-form .ie-rounded-corners .sb-inner {
-    background-color: #ffffff;
-}
-
-#user-profile-form #edit-actions,
-#block-user-login .ie-rounded-corners,
-#block-search-form .ie-rounded-corners,
-.ie-rounded-corners {
-    padding:0 10px;
-    margin:auto;
-    color:#ffffff;
-}
-
-#block-user-login .ie-rounded-corners,
-#user-profile-form #edit-actions {
-    margin-right: 0.5em;
-}
-
-#block-user-login .ie-rounded-corners {
-    margin-left: 0.5em;
-}
-
-li.comment-add a,
-.comment ul li,
-.field-type-ting-relation > .field-items,
-.field-type-ding-entity-buttons > .field-items,
-.field-type-ting-infomedia > .field-items,
-.field-type-ting-sfx > .field-items {
-    display: block;
-    float: right;
-}
-
-li.comment-add,
-.comment ul li,
-.field-type-ting-relation,
-.field-type-ding-entity-buttons,
-.field-type-ting-infomedia,
-.field-type-ting-sfx {
-    clear: both;
-}
-
-.field-type-ting-relation .field-item a,
-.field-type-ting-sfx .field-item a {
-  margin-right: 0;
-  padding-right: 0.5em;
-}
-
-.field-type-ting-relation .field-items.rounded-corners,
-.field-type-ting-sfx .field-items.rounded-corners {
-  border-color: #ffffff;
-  background-color: inherit;
-}
-
-#block-search-form input[type='submit'] {
-    padding:0 0 0 10px;
-    margin-right: 0em;
-}
-
-#button-user-logout, #button-user-logout .sb-inner {
-    padding:0 10px;
-    margin:auto;
-    background-color:#fff;
-}
-
-#button-user-logout a {
-    display: block;
-}
-
-#block-search-form .ie-rounded-corners {
-    margin-right: 0.5em;
-}
-
-#user-profile-form {
-    padding-bottom: 1.5em;
-}
-
-#block-user-login div.content {
-    padding: 0.75em 0 0 0;
-}
-
-#block-user-login .lead-text {
-    padding: 0 0 0.7em;
-}
-
-#block-user-login .form-item input#edit-pass {
-    width: 6em;
-}
-.container-inline .ie-rounded-corners div {
-    display: block;
-}
-
-li.comment-add.rounded-corners,
-.comment ul li.rounded-corners,
-.field-type-ding-entity-buttons .field-items.rounded-corners,
-.field-type-ting-relation       .field-items.rounded-corners,
-.field-type-ting-sfx            .field-items.rounded-corners,
-.field-type-ting-infomedia      .field-items.rounded-corners {
-  display: block;
-  padding: 0;
-  margin: 0 0 0 1em;
-}
-
-li.comment-add.rounded-corners a,
-.comment ul li.rounded-corners a,
-.field-type-ding-entity-buttons .field-items.rounded-corners a,
-.field-type-ting-relation       .field-items.rounded-corners a,
-.field-type-ting-sfx            .field-items.rounded-corners a,
-.field-type-ting-infomedia      .field-items.rounded-corners a {
-  display: block;
-  z-index: 2;
-  padding: 0;
-  padding: 0 0.5em;
-  line-height: 1.5em;
-}
-
-.field-type-ding-entity-buttons .ie-rounded-corners {
-  margin-left: 1em;
-}
-
-#block-user-login .form-item, #block-user-login .form-actions {
-  padding-top: 0;
-}
-
-
-/* ***** end shadedborder ***** */
 
 input#edit-search-block-form--2.spinner { background-position: 216px 5px; }
 
 form#search-block-form div.form-item { margin-top: 0.5em; }
 form#search-block-form div#edit-actions { margin-top: 0.5em; }
 
-
-#block-user-login {
-    width: 46%;
-}
 
 #block-search-form div.form-actions { clear: none; }
 
@@ -266,14 +123,7 @@ input#edit-update {
 }
 
 
-.pane-ding-facetbrowser .content div label { color: #000; }
-
-
 /* ***** search result page ***** */
-
-.form-item-sort label, .form-item-size label {
-  color: #2e2e2e;
-}
 
 .form-item-size, .form-item-sort {
   padding: 0;
