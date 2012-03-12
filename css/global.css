@@ -1,2 +1,81 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+
+#block-user-login .form-item,
+#block-user-login .form-actions,
+#block-search-form .form-item,
+#block-search-form .form-actions {
+  margin: 0 1em 0 0;
+  padding: 0.5em 0 0.25em 0;
+  float: left;
+}
+
+#block-user-login span,
+#block-search-form .lead-text  {
+  display : block;
+  float: left;
+}
+
+#block-search-form .form-item-search-block-form input {
+  width: 20em;
+}
+
+#block-user-login .form-item input {
+  width: 8em;
+}
+
+
+/* ***** REGION-HELP ***** */
+/* ***** LANGUAGE SWITCHER BLOCK ***** */
+
+#region-help .region-inner {
+  margin-top: 0;
+  padding-top: 0;
+  vertical-align: top;
+}
+
+#block-locale-language {
+    text-align: right;
+}
+
+#block-locale-language ul {
+  list-style: none outside none;
+  margin-right: 0.5em;
+}
+
+#block-locale-language li {
+  display: block;
+  float: right;
+  margin-right: 0.5em;
+}
+
+
+/* ***** REGION-MENU ***** */
+
+#zone-menu {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#region-menu .region-inner li a {
+    text-decoration: none;
+}
+
+#region-menu .region-inner li {
+    line-height: 2em;
+    margin: 0.2em 0 0;
+    padding: 0.5em 0.5em 0.3em;
+}
+
+
+
+
+/* ***** TING-SEARCH-CAROUSEL ***** */
+
+.ting-search-carousel .ting-search-results {
+    border: 1px solid #000000;
+}
+
+

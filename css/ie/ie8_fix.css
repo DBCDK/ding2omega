@@ -2,31 +2,31 @@
 input#edit-search-block-form--2.spinner { background-position: 216px 5px; }
 
 form#search-block-form div.form-item { margin-top: 0.5em; }
-form#search-block-form div#edit-actions { margin-top: 0.5em; }
 
+form#search-block-form div#edit-actions { margin-top: 0.5em; }
 
 #block-search-form div.form-actions { clear: none; }
 
 #block-user-login .form-item input {
-  width: 4.2em;
+    width: 4.2em;
 }
 
 #block-user-login .form-item input#edit-name {
-  width: 5em;
+    width: 5em;
 }
 
 #block-user-login .form-item label {
-  padding-left: 0;
-  margin-left: -0.3em;
+    padding-left: 0;
+    margin-left: -0.3em;
 }
 
 input.form-text {
-  width: 17em;
+    width: 17em;
 }
 
 #block-user-login input.form-submit,
 #block-search-form input.form-submit  {
-  padding: 0;
+    padding: 0;
 }
 
 #search-controls-form .form-item-size label {
@@ -34,7 +34,7 @@ input.form-text {
 }
 
 #block-search-form #extend-form-div #extend-form-clear {
-  margin-right:3.5em;
+    margin-right:3.5em;
 }
 
 #block-user-login  #edit-actions--2 { clear: none; }
@@ -42,39 +42,39 @@ input.form-text {
 #block-search-form,
 #block-system-user-menu,
 #block-ding-user-frontend-ding-username {
-  font-size: 0.95em;
+    font-size: 0.95em;
 }
 
 #block-system-user-menu ul li.first {
-  line-height: 1.4em;
+    line-height: 1.4em;
 }
 
 #block-search-form .content {
-  margin-top: 0em;
-  padding-top: 0em;
-  margin-right: 1em;
-  padding-right: 0em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 1em;
+    padding-right: 0em;
 }
 
 #block-search-form .content form {
-  margin-top: 0.75em;
+    margin-top: 0.75em;
 }
 
 #block-search-form .content .form-item {
-  margin-top: 0em;
+    margin-top: 0em;
 }
 
 #block-search-form .content div#edit-actions {
-  margin-top: 0em;
+    margin-top: 0em;
 }
 
 #block-search-form .content div#edit-actions input {
-  max-width: 4em;
+    max-width: 4em;
 }
 
 #ding-user-name {
-  width: 12em;
-  max-width: 12em;
+    width: 12em;
+    max-width: 12em;
 }
 
 /* ***** reservations ***** */
@@ -91,9 +91,9 @@ input.form-text {
 }
 
 input#edit-update {
-  border: black;
-  padding : 0;
-  margin: 0;
+    border: black;
+    padding : 0;
+    margin: 0;
 }
 
 
@@ -126,19 +126,19 @@ input#edit-update {
 /* ***** search result page ***** */
 
 .form-item-size, .form-item-sort {
-  padding: 0;
+    padding: 0;
 }
 
 .page-search-meta .pane-ding-facetbrowser fieldset input[type="checkbox"] { margin-right: 0; }
 .page-search-meta .pane-ding-facetbrowser fieldset div.form-checkboxes label.option { text-indent: -2em; }
 
 .ting-object form input {
-  padding: 0;
+    padding: 0;
 }
 
 .field-type-ding-entity-buttons p.ding-entity-button a,
 .page-user-bookmarks p.ding-entity-button a {
-  z-index: 100;
+    z-index: 100;
 }
 
 
