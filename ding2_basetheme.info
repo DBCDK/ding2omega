@@ -6,6 +6,8 @@ screenshot = 'screenshot.png'
 base theme = 'omega'
 dependencies[0] = 'page_manager'
 
+plugins[panels][layouts] = panels/layouts
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
