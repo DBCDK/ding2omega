@@ -74,8 +74,30 @@
 
 /* ***** TING-SEARCH-CAROUSEL ***** */
 
+.ting-search-carousel {
+    display: none;
+}
+
 .ting-search-carousel .ting-search-results {
     border: 1px solid #000000;
 }
 
 
+
+/* ***** NEWS ***** */
+
+.view-ding-news .column-left,
+.view-ding-news .column-right {
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+
+/* ***** EVENTS ***** */
+
+.view-ding-event .column-event {
+    width: 100%;
+    margin-left: 0;
+    float: left;
+}
