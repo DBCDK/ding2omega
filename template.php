@@ -14,7 +14,7 @@
  /**
   * Implements hooks_css_alter().
   */
- function ding2_basetheme_css_alter(&$css) {
+ function ding2omega_css_alter(&$css) {
    // Remove a couple of unwanted CSS files.
    foreach (array_keys($css) as $filename) {
      if (strpos($filename, 'addressfield/addressfield.css')) {
@@ -31,7 +31,7 @@
  * @param Array $vars
  * @return Stringp
  */
-function ding2_basetheme_date_part_label_date($vars) {
+function ding2omega_date_part_label_date($vars) {
   $element = $vars['element'];
   if (stristr($element['#date_title'], 'start')) {
     $date_string = 'Start date';
@@ -44,7 +44,7 @@ function ding2_basetheme_date_part_label_date($vars) {
 }
 
 
-function ding2_basetheme_form_alter(&$form, &$form_state, $form_id) {
+function ding2omega_form_alter(&$form, &$form_state, $form_id) {
   switch ($form_id) {
     // add a login link to the horizontal login bar block
     case 'user_login':
@@ -79,7 +79,7 @@ function ding2_basetheme_form_alter(&$form, &$form_state, $form_id) {
 /**
  * Overriding theme_breadcrumb().
  */
-function ding2_basetheme_breadcrumb($variables) {
+function ding2omega_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   if (count($breadcrumb) > 1) {
     // Provide a navigational heading to give context for breadcrumb links to
