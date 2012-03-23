@@ -1,0 +1,43 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal
+ *  and widescreen CSS files as appropriate. */
+
+.ting-search-carousel .rs-carousel {
+    width: 330px;
+}
+
+/* ***** NEWS ***** */
+
+.view-ding-news .column-left {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+
+.view-ding-news .column-right {
+    width: 48%;
+    float: left;
+}
+
+
+
+/* ***** EVENTS ***** */
+
+.view-ding-event .column-event {
+    width: 31%;
+    margin-left: 3%;
+}
+
+.view-ding-event .column-event.first {
+    width: 31%;
+    margin-left: 0%;
+}
+
+
+/* ***** CAROUSEL ***** */
+
+.ting-search-carousel {
+    display: block;
+}
+

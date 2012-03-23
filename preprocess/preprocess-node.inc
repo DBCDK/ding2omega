@@ -3,7 +3,7 @@
 /**
  * Preprocess node template variables.
  */
-function ding2_basetheme_alpha_preprocess_node(&$variables) {
+function ding2omega_alpha_preprocess_node(&$variables) {
   switch ($variables['view_mode']) {
     case 'teaser_highlight':
       $variables['theme_hook_suggestion'] = 'node__' . $variables['type'] . '__teaser_highlight';

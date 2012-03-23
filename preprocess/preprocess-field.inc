@@ -5,7 +5,7 @@
  *
  * If we want to alter fields which deviate from core/module field behaviour.
  */
-function ding2_basetheme_alpha_preprocess_field(&$variables, $hook) {
+function ding2omega_alpha_preprocess_field(&$variables, $hook) {
   switch ($variables['element']['#field_type']) {
     case 'ting_series':
     case 'ting_subjects':

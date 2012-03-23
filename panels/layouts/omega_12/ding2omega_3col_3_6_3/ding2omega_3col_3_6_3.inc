@@ -3,7 +3,7 @@
 /**
  * Implements hook_panels_layouts().
  */
-function ding2_basetheme_ding2omega_3col_3_6_3_panels_layouts() {
+function ding2omega_ding2omega_3col_3_6_3_panels_layouts() {
   $items['ding2omega_3col_3_6_3'] = array(
     'title' => t('Three column 3-6-3'),
     'category' => t('Ding2 Omega: 12 column grid'),

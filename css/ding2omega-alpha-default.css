@@ -1,0 +1,36 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/* <!--[if (lt IE 9)&(!IEMobile)]> */
+
+/* ***** NEWS ***** */
+
+.view-ding-news .column-left {
+    width: 48%;
+    margin-right: 4%;
+}
+
+.view-ding-news .column-right {
+    width: 48%;
+}
+
+
+/* ***** EVENTS ***** */
+
+.view-ding-event .column-event {
+    width: 31%;
+    margin-left: 3%;
+    float: left;
+}
+
+.view-ding-event .column-event.first {
+    width: 31%;
+    margin-left: 0%;
+    float: left;
+}
+
+
+/* ***** CAROUSEL ***** */
+
+.ting-search-carousel {
+    display: block;
+}
+
