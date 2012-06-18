@@ -3,7 +3,7 @@
 /**
  * Preprocess ting_object template variables.
  */
-function ding2_basetheme_alpha_preprocess_ting_object(&$variables) {
+function ding2omega_alpha_preprocess_ting_object(&$variables) {
   $places = array(
     'ting_cover' => 'left',
     'ting_title' => 'right',
