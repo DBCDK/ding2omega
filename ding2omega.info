@@ -4,7 +4,6 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
-dependencies[] = 'page_manager'
 
 plugins[panels][layouts] = panels/layouts
 
